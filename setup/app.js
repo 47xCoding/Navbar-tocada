@@ -1,5 +1,8 @@
-// classList - shows/gets all classes
-// contains - checks classList for specific class
-// add - add class
-// remove - remove class
-// toggle - toggles class
+// select item
+const btn = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".links");
+
+// add event
+btn.addEventListener('click', function () {
+navLinks.classList.toggle("show-links")
+})
